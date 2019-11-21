@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>weather</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+    #profile{
+        position: fixed;
+    }
+    input[type=text] {
+    width: 80%;
+    padding: 15px 15px;
+    margin: 5px 5px;
+    box-sizing: border-box;  
+}
+    </style>
+</head>
+<body>
+    <a href="index.html"><button id="profile"  class="btn btn-warning">My Profile</button></a>
+    <center>
+        <a href="news.html"><button type="button" class="btn btn-primary">Find News</button></a>
+        <a href="funny.html"><button class="btn btn-danger">Funny Images</button></a>
+        <a href="weather.html"><button class="btn btn-success">Weather</button></a>
+    </center>
+        <div class="container m-5">
+        <div class="container m-5">
+            <input type="text" class="m-5" name ="forcast" id="forcast" placeholder="enter city to get weather">
+            <button class="btn btn-danger" onclick="weather()">show</button>
+        </div>
+    </div>
+    <div class="container m-10">
+        <div id="fetched"></div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+    <script src="weather.js"></script>
+</body>
+</html>

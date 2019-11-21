@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- css file-->
+    <Style>
+    *{
+        text-align: center;
+        padding: 0; 
+        margin: 0; 
+        box-sizing: border-box;
+        background-color: aquamarine;
+    }
+    section h1{ 
+        text-shadow: 2px 5px 5px #2f3542;
+    }
+    button{
+        background: #3498db;
+        width: 180px;
+        padding: 4px 0;
+        border-radius: 3px;
+    }
+    #profile{
+        position: fixed;
+    }
+    </Style>
+</head>
+<body>
+        <a href="index.html"><button id="profile"  class="btn btn-warning">My Profile</button></a>
+<center>
+        <a href="news.html"><button type="button" class="btn btn-primary">Find News</button></a>
+        <a href="funny.html"><button class="btn btn-danger">Funny Images</button></a>
+        <a href="weather.html"><button class="btn btn-success">Weather</button></a>
+    </center>    
+        <section>
+                <h1>WHAT DOES YOUR NAME SAY ABOUT YOUR PERSONALITY?</h1>
+                <div class="centerDiv">
+                 <div class="details">
+                  <label>ENTER YOUR NAME</label><br>
+                  <input type="text" name="" id="nameid">
+                 </div>
+               
+                 <div class="imgdiv">
+                     <br>
+                  <img src="img.gif" width="200" height="200" class="imgchange">
+                 </div>
+               
+                 <button> Click Me</button>
+                 
+                </div>
+               </section>
+               <!-- Script file-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+    <script src="funny.js"></script>
+</body>
+</html>
